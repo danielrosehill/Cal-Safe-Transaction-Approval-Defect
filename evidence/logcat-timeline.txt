@@ -1,0 +1,48 @@
+# Sanitised Android logcat timeline, 2026-11-19 (local time, UTC+2).
+# Only activity starts/resumes for the Cal app and the SMS app, and Android biometric events.
+# PIDs, UIDs, tokens and all other apps removed.
+18:40:13.201  RESUMED   com.google.android.apps.messaging/.ui.ConversationListActivity
+18:40:15.095  RESUMED   com.onoapps.cal4u/.ui.CALDeepLinksActivity
+18:40:20.671  START     com.onoapps.cal4u/.ui.quick_view.CALQuickViewActivity
+18:40:20.681  RESUMED   com.onoapps.cal4u/.ui.quick_view.CALQuickViewActivity
+18:40:21.318  biometric  Requesting auth for com.onoapps.cal4u
+18:40:25.981  biometric  onAuthenticated(false)
+18:46:29.407  RESUMED   com.onoapps.cal4u/.ui.login.CALLoginNewPasswordActivity
+18:46:34.292  RESUMED   com.onoapps.cal4u/.ui.login.CALLoginNewPasswordActivity
+18:47:00.577  RESUMED   com.onoapps.cal4u/.ui.login.CALLoginNewPasswordActivity
+18:47:03.238  RESUMED   com.onoapps.cal4u/.ui.login.CALLoginNewPasswordActivity
+18:47:12.970  START     com.onoapps.cal4u/.ui.CALMainActivity
+18:47:12.983  RESUMED   com.onoapps.cal4u/.ui.CALMainActivity
+18:47:15.362  RESUMED   com.onoapps.cal4u/.ui.CALMainActivity
+18:49:47.481  biometric  onErrorInternal code: 5
+18:49:57.294  START     com.onoapps.cal4u/.ui.CALDeepLinksActivity (VIEW https://dl.cal-online.co.il/...)
+18:49:57.704  RESUMED   com.onoapps.cal4u/.ui.safe_transaction.container.CALSafeTransactionActivity
+18:50:00.480  RESUMED   com.onoapps.cal4u/.ui.dashboard.CALDashboardActivity
+18:52:43.168  RESUMED   com.onoapps.cal4u/.ui.CALSplashActivity
+18:52:48.323  RESUMED   com.onoapps.cal4u/.ui.quick_view.CALQuickViewActivity
+18:52:48.375  START     com.onoapps.cal4u/.ui.login.CALLoginActivity
+18:52:49.089  biometric  Requesting auth for com.onoapps.cal4u
+18:52:49.844  biometric  Acquired!
+18:52:49.935  biometric  Authenticated!
+18:52:49.936  biometric  onAuthenticated(false)
+18:52:51.370  biometric  Acquired!
+18:52:51.417  biometric  Authenticated!
+18:52:54.736  START     com.onoapps.cal4u/.ui.CALMainActivity
+18:52:54.780  START     com.onoapps.cal4u/.ui.safe_transaction.container.CALSafeTransactionActivity
+18:52:54.817  RESUMED   com.onoapps.cal4u/.ui.safe_transaction.container.CALSafeTransactionActivity
+18:52:55.138  START     com.onoapps.cal4u/.ui.dashboard.CALDashboardActivity
+18:52:55.150  RESUMED   com.onoapps.cal4u/.ui.dashboard.CALDashboardActivity
+18:53:06.489  START     com.onoapps.cal4u/.ui.insights.CALInsightsActivity
+18:53:06.504  RESUMED   com.onoapps.cal4u/.ui.insights.CALInsightsActivity
+18:53:14.412  RESUMED   com.onoapps.cal4u/.ui.dashboard.CALDashboardActivity
+18:53:20.631  START     com.onoapps.cal4u/.ui.debit_spreading.CALDebitSpreadingActivity
+18:53:20.648  RESUMED   com.onoapps.cal4u/.ui.debit_spreading.CALDebitSpreadingActivity
+18:53:24.159  RESUMED   com.onoapps.cal4u/.ui.dashboard.CALDashboardActivity
+18:53:25.145  START     com.onoapps.cal4u/.ui.custom_views.menus.main.CALMainMenuActivity
+18:53:25.159  RESUMED   com.onoapps.cal4u/.ui.custom_views.menus.main.CALMainMenuActivity
+18:55:13.454  biometric  Requesting auth for com.onoapps.cal4u
+18:55:14.319  biometric  Acquired!
+18:55:14.406  biometric  Authenticated!
+18:55:16.112  biometric  Acquired!
+18:55:55.706  RESUMED   com.onoapps.cal4u/.ui.CALMainActivity
+18:55:55.867  RESUMED   com.onoapps.cal4u/.ui.dashboard.CALDashboardActivity
